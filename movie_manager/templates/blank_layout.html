@@ -1,0 +1,11 @@
+{% load static %}
+<script type="text/javascript" src="{{ STATIC_URL }} /static/jquery-3.7.1.js">
+</script> 
+<h1>Movie Project </h1>
+    <img src="{% static 'images/logo.png'%}" alt="">
+
+{% include 'menu.html' %}
+{% block content %}
+<p>place your content</p>
+{% endblock content %}
+
